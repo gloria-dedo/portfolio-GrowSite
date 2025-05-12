@@ -1,0 +1,24 @@
+nav{
+    background-color: #0779E4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav a {
+    color: white;
+    text-decoration: none; 
+}
+
+/* .text-white{
+    color: white;
+    text-decoration: none;   
+} */
+
+.text-bold{
+    font: bold;
+}
+/* body{
+ 
+} */
