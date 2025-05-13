@@ -5,26 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
-    <nav>
+    <nav class="flex justify-between items-center fixed top-0 left-0 right-0  p-4">
         <div>
-            <a href="#" class="text-white"><h4 >Gloria</h4></a>
+            <a href="#" class="text-white font-bold text-xl">
+                <h4>Gloria</h4>
+            </a>
         </div>
-        <div class="nav-links">
+        <div class="nav-items ">
             <!-- Span is an inline  element -->
             <a href="#"><span>Home</span></a>
-            <a href="#" ><span>About</span></a>
-            <a href="#" ><span>Services</span></a>
-            <a href="#" ><span>Portfolio</span></a>
+            <a href="#"><span>About</span></a>
+            <a href="#"><span>Services</span></a>
+            <a href="#"><span>Portfolio</span></a>
             <a href="#"><span>Pricing</span></a>
             <a href="#"><span>Blog</span></a>
             <a href="#"><span>Contact</span></a>
-            
+
         </div>
     </nav>
+    <section class="hero-section">
+        <div class="hero-content">
+             <p>Hi There!</p>
+        <h1>I am Gloria Dedo</h1>
+        <h1>A Web Developer</h1>
+        <p class="bio">Far far away, behind the word mountains, far from the countries Vokalia <br>and Consonantia, there live the blind texts.</p>
+        <div>
+            <button><a href="#">HIRE ME</a></button>
+            <button><a href="#">VIEW PORTFOLIO</a></button>
+        </div>
+        <div>
+            <span><a href="#">+ FACEBOOK</a></span>
+            <span><a href="#">+ TWITTER</a></span>
+            <span><a href="#">+ LINKEDIN</a></span>
+        </div>
+        </div>
+       
+    </section>
 </body>
 
 </html>
