@@ -7,10 +7,11 @@
     <title>Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js" defer></script>
 </head>
 
 <body>
-    <nav class="flex justify-between items-center fixed top-0 left-0 right-0  p-4">
+    <nav id="nav-bar" class="flex justify-between items-center fixed top-0 left-0 right-0  p-4 ">
         <div>
             <a href="#" class="text-white font-bold text-xl">
                 <h4>Gloria</h4>
@@ -30,21 +31,42 @@
     </nav>
     <section class="hero-section">
         <div class="hero-content">
-             <p>Hi There!</p>
-        <h1>I am Gloria Dedo</h1>
-        <h1>A Web Developer</h1>
-        <p class="bio">Far far away, behind the word mountains, far from the countries Vokalia <br>and Consonantia, there live the blind texts.</p>
-        <div>
-            <button><a href="#">HIRE ME</a></button>
-            <button><a href="#">VIEW PORTFOLIO</a></button>
+            <p class="bg-white text-[#0779e4] w-[80px] p-2 text-sm rounded-sm font-bold">Hi There!</p>
+            <h1>I am Gloria Dedo</h1>
+            <h1>A Web Developer</h1>
+            <p class="bio">Far far away, behind the word mountains, far from the countries Vokalia <br>and Consonantia,
+                there live the blind texts.</p>
+            <div>
+                <button><a href="#">HIRE ME</a></button>
+                <button><a href="#">VIEW PORTFOLIO</a></button>
+            </div>
+            <div>
+                <span><a href="#">+ FACEBOOK</a></span>
+                <span><a href="#">+ TWITTER</a></span>
+                <span><a href="#">+ LINKEDIN</a></span>
+            </div>
         </div>
-        <div>
-            <span><a href="#">+ FACEBOOK</a></span>
-            <span><a href="#">+ TWITTER</a></span>
-            <span><a href="#">+ LINKEDIN</a></span>
+
+    </section>
+    <section class="w-[80%] mx-auto h-[648px] flex flex-row justify-around mt-[80px]">
+        <div class="w-[45%] bg-[url('./Images/asset3.jpeg')] bg-cover bg-center bg-no-repeat ">
+            <!-- <img src="./Images/asset 3.jpeg" alt="Asset 3"> -->
         </div>
+        <div class="w-[45%]">
+            <div>
+                <span>About Me</span>
+                <span>Skills</span>
+                <span>Experience</span>
+            </div>
+            <h1>My Story</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean.</p>
+            <h2>I Do Web Design & Developement since I was 18 Years Old</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.
+            </p>
         </div>
-       
     </section>
 </body>
 
